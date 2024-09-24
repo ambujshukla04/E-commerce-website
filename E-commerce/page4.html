@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" media="screen and (max-width: 1393px)" href="css/phone.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Font Awesome Icon Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap" rel="stylesheet">
+    <style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f1f3f6;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .container {
+        display: flex;
+        background-color: white;
+        width: 60%;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .left {
+        background-color: #2874f0;
+        color: white;
+        width: 40%;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .left h2 {
+        margin-bottom: 20px;
+        font-size: 24px;
+    }
+
+    .left p {
+        font-size: 18px;
+        margin-bottom: 40px;
+    }
+
+    .right {
+        width: 60%;
+        padding: 40px;
+    }
+
+    .input {
+        margin-bottom: 15px;
+        position: relative;
+    }
+
+    .input i {
+        position: absolute;
+        top: 12px;
+        left: 10px;
+        color: #aaa;
+    }
+
+    .input input[type="text"],
+    .input input[type="password"] {
+        width: 100%;
+        padding: 10px 40px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        font-size: 16px;
+    }
+
+    #mard input[type="radio"] {
+        margin-right: 5px;
+    }
+
+    .input input[type="radio"] {
+        margin-right: 5px;
+    }
+
+    .btn {
+        background-color: #ff5722;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        width: 100%;
+        cursor: pointer;
+        font-size: 16px;
+        border-radius: 4px;
+    }
+
+    .btn:hover {
+        background-color: #e64a19;
+    }
+
+    .footer-text {
+        text-align: center;
+        margin-top: 15px;
+        font-size: 14px;
+    }
+
+    .footer-text a {
+        color: #2874f0;
+        text-decoration: none;
+    }
+
+    .footer-text a:hover {
+        text-decoration: underline;
+    }
+
+</style>
+</head>
+<body>
+
+<div class="container">
+    <!-- Left Section (Login Info) -->
+    <div class="left">
+        <h2>Registration</h2>
+        <div id="logo-image">
+            <img src="chrome_fTWIgyHkXj.png" alt="me">
+        </div>
+    </div>
+
+    <!-- Right Section (Form) -->
+    <div class="right">
+        <form>
+            <div class="input">
+                <i class="fa fa-user" aria-hidden="true"></i>
+                <input type="text" placeholder="First Name" class="fname">
+            </div>
+            <div class="input">
+                <i class="fa fa-user" aria-hidden="true"></i>
+                <input type="text" placeholder="Last Name" class="lname">
+            </div>
+            <div class="input">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <input type="text" placeholder="Phone Number" class="inpt">
+            </div>
+            <div class="input">
+                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                <input type="text" placeholder="Email" class="inpt">
+            </div>
+            <div class="input">
+                <i class="fa fa-lock" aria-hidden="true"></i>
+                <input type="password" placeholder="Password" class="inpt">
+            </div>
+            <div class="input">
+                <i class="fa fa-calendar-o" aria-hidden="true"></i>
+                <input type="text" placeholder="DOB" class="inpt">
+            </div>
+            <div id="mard" class="input">
+                <input type="radio" name="gender" value="male"> Male
+                <input type="radio" name="gender" value="female"> Female
+            </div>
+            <div class="input">
+                <i class="fa fa-home" aria-hidden="true"></i>
+                <input type="text" placeholder="City" class="inpt">
+            </div>
+            <button class="btn">Request OTP</button>
+
+            <div class="footer-text">
+                <p>Welcome to AK <a href="index.html">Login</a></p>
+            </div>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,15 @@
+#main{
+    height: 100%;
+    width: 100%;
+    background:linear-gradient(135deg,#00feba, #5b548a); 
+}
+  
+
+#page1{
+    height: 52rem;
+    width: 139px;
+    border-top: 1px solid black;
+    position: relative;
+    background:linear-gradient(135deg,#00feba, #5b548a);
+}
+
